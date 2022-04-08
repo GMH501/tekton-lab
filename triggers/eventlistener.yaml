@@ -8,7 +8,7 @@ spec:
   - bindings:
     - ref: pipeline-demo-tb
     template:
-      name: pipeline-demo-tt
+      ref: pipeline-demo-tt
     interceptors:
     - cel:
         filter: >-
